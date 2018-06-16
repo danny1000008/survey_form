@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>
+      Skatepark Survey Form
+    </title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+  </header>
+  <main>
+    <p id="description">Help us design the Evanston skatepark!</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name</label><input type="text" id="name" placeholder="Your name">
+      <label id="email-label" for="email">Email</label><input type="text" id="email" placeholder="Your email">
+      <label id="number-label" for="age">Age</label><input type="text" id="age" placeholder="Your age">
+      <label id="user-yesno" for="is-user">Will you use the skatepark once it is built?</label>
+      <select id="is-user">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <label for="user-type">What do you ride?</label>
+      <input type="radio" name="user-type" value="skateboard">Skateboard<br>
+      <input type="radio" name="user-type" value="scooter">Scooter<br>
+      <input type="radio" name="user-type" value="bike">Bike<br>
+      <input type="radio" name="user-type" value="roller-blades">Roller blades<br>
+      <label for="feature">What features would you like to see in the skatepark?</label>
+      <input type="checkbox" name="feature" value="rails">Rails<br>
+      <input type="checkbox" name="feature" value="ledges">Ledges<br>
+      <input type="checkbox" name="feature" value="curbs">Curbs<br>
+      <input type="checkbox" name="feature" value="ramps">Ramps<br>
+      <input type="checkbox" name="feature" value="bowls">Bowls<br>
+      <textarea rows="6" placeholder="Further comments here..."></textarea>
+      <input type="submit" id="submit">
+    </form>
+  </main>
+  </body>
+</html>
