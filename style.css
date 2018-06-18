@@ -1,0 +1,50 @@
+#survey-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 10px;
+}
+.survey-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 10px;
+}
+label {
+  justify-self: right;
+}
+
+h1 {
+  text-align: center;
+  color: #EEEEEE;
+}
+#dropdown {
+  width: 100px;
+}
+p {
+  text-align: center;
+  color: #DDDDDD;
+  font-size: 22px;
+}
+#submit {
+  grid-column: 2/3;
+  width: 60px;
+}
+#name {
+  width: 80%;
+}
+#email {
+  width: 80%;
+}
+#number {
+  width: 80px;
+}
+body {
+  background-color: #4B0082;
+}
+main {
+  background-color: hsl(240, 100%, 70%);
+  width: 80%;
+  margin: auto;
+}
+textarea {
+  width: 90%;
+}
